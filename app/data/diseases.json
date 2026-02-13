@@ -1,0 +1,94 @@
+{
+  "mammals": [
+    {
+      "name": "Mastitis",
+      "species": ["cow", "goat"],
+      "symptoms": ["swollen udder", "painful udder", "fever", "abnormal milk"],
+      "treatment": ["veterinary antibiotics", "anti-inflammatory support", "frequent milking and udder hygiene"],
+      "prevention": ["clean milking environment", "post-milking teat disinfection", "regular udder checks"]
+    },
+    {
+      "name": "Canine Parvovirus",
+      "species": ["dog", "puppy"],
+      "symptoms": ["bloody diarrhea", "vomiting", "lethargy", "dehydration"],
+      "treatment": ["urgent IV fluids", "antiemetics", "isolation and intensive supportive care"],
+      "prevention": ["complete vaccination", "avoid exposure to infected feces", "disinfection with bleach products"]
+    },
+    {
+      "name": "Feline Upper Respiratory Infection",
+      "species": ["cat", "kitten"],
+      "symptoms": ["sneezing", "nasal discharge", "eye discharge", "fever"],
+      "treatment": ["hydration", "nutritional support", "veterinary antivirals or antibiotics when indicated"],
+      "prevention": ["vaccination", "reduce stress", "separate sick cats"]
+    }
+  ],
+  "herbivorous": [
+    {
+      "name": "Bloat (Rumen Tympany)",
+      "species": ["cow", "goat", "sheep"],
+      "symptoms": ["left abdominal swelling", "restlessness", "trouble breathing", "salivation"],
+      "treatment": ["urgent veterinary decompression", "antifoaming agents", "remove fermentable feed source"],
+      "prevention": ["slow diet transitions", "avoid sudden access to lush legumes", "balanced roughage"]
+    },
+    {
+      "name": "Coccidiosis",
+      "species": ["rabbit", "goat", "sheep", "calf"],
+      "symptoms": ["diarrhea", "weight loss", "poor appetite", "dehydration"],
+      "treatment": ["veterinary anticoccidial drugs", "fluid therapy", "improved hygiene"],
+      "prevention": ["clean housing", "dry bedding", "reduce overcrowding"]
+    },
+    {
+      "name": "Foot Rot",
+      "species": ["sheep", "goat", "cow"],
+      "symptoms": ["lameness", "foul odor from hoof", "swelling between claws"],
+      "treatment": ["hoof trimming", "topical antiseptics", "veterinary antibiotics in severe cases"],
+      "prevention": ["dry footing", "regular hoof care", "foot baths"]
+    }
+  ],
+  "carnivorous": [
+    {
+      "name": "Canine Distemper",
+      "species": ["dog", "fox", "ferret"],
+      "symptoms": ["fever", "cough", "nasal discharge", "neurological signs"],
+      "treatment": ["supportive care", "anti-seizure management", "secondary infection control"],
+      "prevention": ["vaccination", "limit contact with infected animals"]
+    },
+    {
+      "name": "Feline Panleukopenia",
+      "species": ["cat", "kitten"],
+      "symptoms": ["vomiting", "diarrhea", "fever", "severe weakness"],
+      "treatment": ["isolation", "aggressive fluid support", "broad supportive care"],
+      "prevention": ["vaccination", "quarantine new cats", "environmental disinfection"]
+    },
+    {
+      "name": "Tooth Root Abscess",
+      "species": ["cat", "dog"],
+      "symptoms": ["facial swelling", "mouth pain", "bad breath", "reduced eating"],
+      "treatment": ["dental extraction or treatment", "pain control", "targeted antibiotics"],
+      "prevention": ["regular dental checks", "oral hygiene"]
+    }
+  ],
+  "reptiles": [
+    {
+      "name": "Metabolic Bone Disease",
+      "species": ["iguana", "bearded dragon", "turtle"],
+      "symptoms": ["soft jaw", "weak limbs", "tremors", "deformities"],
+      "treatment": ["correct UVB lighting", "calcium and vitamin D support", "veterinary monitoring"],
+      "prevention": ["proper UVB exposure", "species-appropriate calcium-rich diet"]
+    },
+    {
+      "name": "Respiratory Infection in Reptiles",
+      "species": ["snake", "lizard", "turtle"],
+      "symptoms": ["open-mouth breathing", "wheezing", "nasal bubbles", "lethargy"],
+      "treatment": ["optimize enclosure temperature", "veterinary antibiotics when indicated", "hydration support"],
+      "prevention": ["correct humidity", "stable temperature gradient", "clean enclosure"]
+    },
+    {
+      "name": "Shell Rot",
+      "species": ["turtle", "tortoise"],
+      "symptoms": ["soft shell areas", "foul smell", "discoloration", "ulcer-like lesions"],
+      "treatment": ["shell cleaning", "topical medication", "veterinary debridement for severe cases"],
+      "prevention": ["clean dry basking area", "good water quality", "balanced nutrition"]
+    }
+  ]
+}
